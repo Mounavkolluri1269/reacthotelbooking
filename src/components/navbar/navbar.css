@@ -1,0 +1,43 @@
+.navbar {
+  height: 70px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  /* max-width: 1024px; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  /* font-weight: 500; */
+  width: 170px;
+}
+
+.navButton {
+  color: #003580;
+  margin-left: 20px;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.navRegister {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.navRegister:hover {
+  background: white;
+  border: 1px solid white;
+  color: #003580;
+  transition: all .5s ease-in-out;
+}
